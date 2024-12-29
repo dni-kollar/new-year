@@ -1,0 +1,121 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    color: #ff5722;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ff5722;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: white;
+    display: block;
+}
+
+/* Our Favorite New Year's Dishes section */
+#main-content section:first-of-type {
+    margin-left: 60px; /* Slightly indented */
+}
+
+/* Favorite Dishes list */
+ul {
+    list-style: disc;
+    margin: 20px 40px;
+    color: #333;
+}
+
+/* Recipe Grid */
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 fixed columns */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+}
+
+.recipe-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+    transform: scale(1.05);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.recipe-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #ff5722;
+}
+
+.recipe-card p {
+    margin: 10px;
+    color: #666;
+}
+
+/* Skip to content link */
+.skip-link {
+    display: block;
+    text-align: left;
+    margin: 20px 40px;
+    color: #666;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.skip-link:hover {
+    text-decoration: underline;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+/* Additional Recipes section */
+#tovabbi-receptek {
+    text-align: left;
+    margin-left: 40px; /* Slightly less indented */
+    color: #333;
+}
+
+#tovabbi-receptek h2 {
+    margin-bottom: 10px;
+    color: #ff5722;
+}
+
+#tovabbi-receptek p {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ff5722;
+    color: white;
+    font-size: 1em;
+}
